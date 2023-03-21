@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: globalmdccontainerregistry.azurecr.io/srinivasMekala/springboot-aks:#{Build.BuildId}#
+        image: globalmdccontainerregistry.azurecr.io/srinivasmekala/springboot-aks:#{Build.BuildId}#
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
